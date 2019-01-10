@@ -14,7 +14,11 @@ class App extends Component {
     }
 
     changeDeadLine() {
-        this.setState({ deadline: this.state.newDeadLine });
+        if (this.state.newDeadLine > this.state.deadline) {
+            this.setState({ deadline: this.state.newDeadLine });
+        } else {
+            this.setState({ deadline: "Enter a valid date past today" })
+        }
     }
 
     render() {

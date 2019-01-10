@@ -1,11 +1,16 @@
 .App {
     text-align: center;
-    font-size: 28px;
-    margin-top: 20%;
+    font-size: 4vmin;
+    margin-top: 10%;
+    padding: 20px;
+    background-color: #1DAAAA;
+    color: #fff;
 }
 
 .App-title {
-    font-size: 35px;
+    font-size: 6vmin;
+    margin-bottom: 4%;
+    text-shadow: #999 0 2px 1px;
 }
 
 .Clock-days,
@@ -14,9 +19,14 @@
 .Clock-seconds {
     display: inline;
     margin: 10px;
+    text-shadow: #999 0 2px 1px;
 }
 
 .Deadline-input {
-    font-size: 25px;
+    font-size: 4vmin;
     margin: 5px;
+}
+
+Button {
+    margin-left: 20px
 }
